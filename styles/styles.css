@@ -239,6 +239,86 @@ main{
     transform: scale(1.7);
     /* height: 100%; */
 }
+/* BMI */
+.bmi-text {
+    width: 671px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.bmi-part {
+    background: rgb(34, 34, 34);
+    padding: 15px;
+}
+
+.bmi-part  h2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    padding-bottom: 15px;
+}
+
+
+.bmi-part-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.bmi-chart-calc table {
+    max-width: 310px;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.bmi-chart-calc th, .bmi-chart-calc td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+
+.bmi-chart-calc th {
+    color: rgba(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.bmi-chart-calc td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+
+.bmi-calculator {
+    max-width: 577px;
+}
+
+.bmi-calculator .bmi-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 30px 0px;
+}
+
+.bmi-calculator input, .bmi-calculator  {
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bmi-calculator #activity {
+    grid-column: span 2;
+}
 /*  */
 .meet-our-team{
     padding: 88px 0;
@@ -308,4 +388,74 @@ main{
     width: 100%;
     border-radius: 18px;
     
+}
+/*  */
+.footer {
+    background-color: rgb(35, 35, 35);
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.content{
+    margin: 0 auto;
+}
+.footer-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;    
+}
+.footer-logo {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer-text1  {
+    width: 48%;
+}
+
+.footer-text1 > h1 {
+    font-size: 70px;
+    font-weight: 800;
+    padding-bottom: 10px;
+
+}
+.footer-text1 p {
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-text2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48%
+}
+
+.footer-list1, .footer-list2 {
+    width: 180px;
+}
+
+.footer-text2 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 250%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.footer-last > p {
+    width: 325px;
+    font-size: 19px;    
+    margin: 2rem auto;
 }
