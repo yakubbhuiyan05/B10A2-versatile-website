@@ -2,6 +2,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: black;
 }
 /* Shared styles */
 *{
@@ -141,8 +142,7 @@ body {
 }
 /* main part styles */
 main{
-    /* width: 1450px; */
-    /* margin: 0 auto; */
+    width: 100%;
     background-color: black;
 }
 /* change habit styles */
@@ -204,7 +204,7 @@ main{
     /* color: white; */
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
-    width: 1060px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -241,7 +241,7 @@ main{
 }
 /* BMI */
 .bmi-section{
-    max-width: 1440px;
+    max-width: 90%;
     margin: 88px auto;
 }
 .bmi-text {
@@ -327,6 +327,7 @@ select option{
 
 /*  */
 .meet-our-team{
+    width: 90%;
     padding: 88px 0;
 }
 .meet-header{
@@ -405,9 +406,9 @@ select option{
     padding-bottom: 25px;
     padding-left: 100px; */
     padding: 66px 0 35px;
-    /* margin: 0 auto; */
-    /* align-items: center;
-    justify-content: space-between; */
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
     /* margin: 88px auto; */
 }
 .content{
