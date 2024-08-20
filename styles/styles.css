@@ -204,7 +204,7 @@ main{
     margin-bottom: 100px;
     line-height: 20px;
 }
-/*  */
+/* Run extra mile related styles */
 .run-extra-mile{
     /* color: white; */
     background-color: rgb(34, 34, 34);
@@ -244,7 +244,7 @@ main{
     transform: scale(1.7);
     /* height: 100%; */
 }
-/* BMI */
+/* BMI section related styles*/
 .bmi-section{
     margin: 88px auto;
 }
@@ -333,7 +333,7 @@ select option{
     font-weight: 400;
 }
 
-/*  */
+/* meet our team related styles */
 .meet-our-team{
     width: 1060px;
     margin: 0 auto;
@@ -408,7 +408,7 @@ select option{
     border-radius: 18px;
     
 }
-/*  */
+/* footer related styles */
 .footer {
     
     background-color: rgb(35, 35, 35);
@@ -529,18 +529,18 @@ select option{
         flex-direction: column;
         padding: 0 20px;
     }
+    /* run extra */
     .run-extra-mile {
-        /* color: white; */
         background-color: rgb(34, 34, 34);
         border-radius: 18px;
-        /* width: 1060px; */
-        /* margin: 0 auto; */
         display: flex;
         align-items: center;
-        justify-content: space-between;
         padding: 0 20px;
         flex-direction: column;
         justify-content: center;
+    }
+    .run-img img{
+        width: 287px;
     }
     .meet-our-team {
         /* width: 1060px; */
@@ -549,8 +549,8 @@ select option{
         display: flex;
         flex-direction: column;
     }
-    .meet-team-image {
-        /* width: 1060px; */
+    .team-img > .meet-trainee {
+        /* width: 1060px;
         /* margin-left: 150px; */
         /* margin-right: 150px; */
         display: grid;
@@ -563,11 +563,11 @@ select option{
         height: 272px;
         margin: 0 auto;
     }
-    .content {
+    .footer-content {
         /* width: 1060px; */
         /* margin: 0 auto; */
-        padding: 66px 0 35px;
-        display: flex;
+        max-width: 450px;
         flex-direction: column;
+        gap: 50px;
     }    
 }
